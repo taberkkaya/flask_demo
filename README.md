@@ -32,7 +32,7 @@ This project is a simple article sharing website.
 * *[index.py](https://github.com/taberkkaya/flask_demo/blob/main/index.py)*
 
 ## Requirements
----
+
 The packages I used to run the code are listed in here.
 
 >Kodu çalıştırmak için kullandığım paketler burada listelenmiştir.
