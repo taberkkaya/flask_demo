@@ -10,23 +10,26 @@ This project is a simple article sharing website.
 
 # List of Content
 
-* *[/templates]()*
-    * *[/includes]()*
-        * *[formhelpers.html]()*
-        * *[messages.html]()*
-        * *[navbar.html]()*
-    * *[about.html]()*
-    * *[addarticle.html]()*
-    * *[article.html]()*
-    * *[dashboard.html]()*
-    * *[detail.html]()*
-    * *[edit.html]()*
-    * *[index.html]()*
-    * *[layout.html]()*
-    * *[login.html]()*
-    * *[register.html]()*
-* *[flask_demo.sql]()*
-* *[index.py]()*
+* *[/templates](https://github.com/taberkkaya/flask_demo/tree/main/templates)*
+    * *[/includes](https://github.com/taberkkaya/flask_demo/tree/main/templates/includes)*
+
+        * *[formhelpers.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/includes/formhelpers.html)*
+        * *[messages.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/includes/messages.html)*
+        * *[navbar.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/includes/navbar.html)*
+
+    * *[about.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/about.html)*
+    * *[addarticle.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/addarticle.html)*
+    * *[articles.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/articles.html)*
+    * *[dashboard.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/dashboard.html)*
+    * *[detail.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/detail.html)*
+    * *[edit.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/edit.html)*
+    * *[index.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/index.html)*
+    * *[layout.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/layout.html)*
+    * *[login.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/login.html)*
+    * *[register.html](https://github.com/taberkkaya/flask_demo/blob/main/templates/register.html)*
+
+* *[flask_demo.sql](https://github.com/taberkkaya/flask_demo/blob/main/flask_demo.sql)*
+* *[index.py](https://github.com/taberkkaya/flask_demo/blob/main/index.py)*
 
 ## Requirements
 ---
@@ -59,9 +62,9 @@ pip install passlib
 pip install email-validator
 ```
 
-Download XAMPP and import ***[this sql file]()*** in your database named ***flask_demo***.
+Download XAMPP and import ***[this sql file](https://github.com/taberkkaya/flask_demo/blob/main/flask_demo.sql)*** in your database named ***flask_demo***.
 
->XAMPP'i indirin ve ***[bu sql dosyasını]()*** adı ***flask_demo*** olan veritabanınıza ekleyin.
+>XAMPP'i indirin ve ***[bu sql dosyasını](https://github.com/taberkkaya/flask_demo/blob/main/flask_demo.sql)*** adı ***flask_demo*** olan veritabanınıza ekleyin.
 
 # Source
 
