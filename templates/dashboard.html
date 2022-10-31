@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    dashboard
+{% endblock title %}
+
+{% block body %}
+    <h3>dashboard</h3>
+    <small>welcome, {{session['username']}}</small>
+    <hr>
+    <a href="/addarticle" class="btn btn-danger">add article</a>
+    <br><br>
+    <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">author</th>
+        <th scope="col">title</th>
+        <th scope="col">created date</th>
+        <th scope="col">edit</th>
+        <th scope="col">delete</th>
+      </tr>
+  </thead>
+    {% for article in articles %}
+            <tr>
+              <th scope="row">{{article.id}}</th>
+              <td>{{article.author}}</td>
+              <td><a href="/detail/{{article.id}}">{{article.title}}</a></td>
+              <td>{{article.created_date}}</td>
+              <th><a href="/edit/{{article.id}}" class="btn btn-danger">edit</a></th>
+              <th><a href="/delete/{{article.id}}" class="btn btn-danger">delete</a></th>
+            </tr>
+      {% endfor %}
+    </table>
+{% endblock body %}

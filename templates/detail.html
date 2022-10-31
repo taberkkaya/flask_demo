@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    detail
+{% endblock title %}
+
+{% block body %}
+    {% if article %}
+        <h3>detail</h3>
+        <hr>
+        author : {{article.author}}
+        <hr>
+        created date : {{article.created_date}}
+        <hr>
+        {{article.content|safe}}
+    {% else %}
+ 
+    {% endif %}
+{% endblock body %}

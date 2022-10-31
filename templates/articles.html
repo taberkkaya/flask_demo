@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    articles
+{% endblock title %}
+
+{% block body %}
+    <h3>articles</h3>
+    <hr>
+      <form action="/search" method="POST">
+        <div class="input-group rounded">
+          <input type="search" name="keyword" class="rounded border-light" placeholder="search" aria-label="search" aria-describedby="search-addon" />
+          <button type="submit" class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+      </form>
+      <hr>
+      <ul class="list-group list-group-flush">
+        {% for article in articles %}
+            <li class="list-group-item"><a href="/detail/{{article.id}}">{{article.title}}</a></li>
+        {% endfor %}
+      </ul> 
+{% endblock body %}
